@@ -13,6 +13,6 @@ describe('Login Test', () => {
     // Assert that the login is successful
     cy.get('#nameofuser')
       .should('be.visible')
-      .and('contain.text', 'Welcome suprcuprtester');
+      .and('contain.text', 'Welcome suprcuprtester2');
   });
 });
